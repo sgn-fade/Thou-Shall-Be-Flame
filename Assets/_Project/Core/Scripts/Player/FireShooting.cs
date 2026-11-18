@@ -1,0 +1,32 @@
+using System;
+using Unity.VisualScripting.Dependencies.NCalc;
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+namespace _Project.Core.Scripts.Player
+{
+    public class FireShooting : MonoBehaviour
+    {
+        [SerializeField] private GameObject _sparkProjectile;
+        [SerializeField] private float _shootImpulse = 10f;
+        [SerializeField] private Camera _camera;
+
+        public void Shoot(InputAction.CallbackContext context)
+        {
+            if (!context.started) return;
+
+            var sparkObj = Instantiate(_sparkProjectile,
+                _camera.transform.position + _camera.transform.forward * 1.3f,
+                transform.rotation);
+
+            if (sparkObj.TryGetComponent(out Rigidbody rb))
+            {
+                rb.AddForce(_camera.transform.forward * _shootImpulse, ForceMode.Impulse);
+            }
+            else
+            {
+                Debug.LogError("Spark projectile doesn't have a rigidbody! " +  sparkObj);
+            }
+        }
+    }
+}
