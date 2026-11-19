@@ -4850,6 +4850,7 @@ GameObject:
   - component: {fileID: 667629675553455454}
   - component: {fileID: 1693584028764575363}
   - component: {fileID: 585575549736680319}
+  - component: {fileID: 7839949978340780606}
   m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
@@ -4871,6 +4872,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3771793026474904492}
+  - {fileID: 2683287340700958099}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2048490095609334608
@@ -4969,11 +4971,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dda53290988e450b9cc624168440afe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::_Project.Core.Scripts.FlamePhysics.Flameable
-  _timeToBurn: 2
-  _burnDuration: 1
-  _targetColor: {r: 1, g: 0.50904363, b: 0, a: 1}
+  _material: {fileID: 11400000, guid: c7809d4dca3d4664ca7baf32a919b3bd, type: 2}
   _emitRadius: 2
-  _particleSystem: {fileID: 2645790389056702533}
+  _surface: 5
+  _currentTemperatureKelvin: 293.1499938964844
 --- !u!65 &585575549736680319
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4995,3 +4996,69 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.4728021, y: 0.47279668, z: 0.47279653}
   m_Center: {x: 0, y: 0, z: 0.22499998}
+--- !u!114 &7839949978340780606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885608951627620988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71216641679041b1a107b75e7b521948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::_Project.Core.Scripts.FlamePhysics.ReactionEffects.ParticleEmitter
+  _particleSystem: {fileID: 2645790389056702533}
+--- !u!1 &8250815955148261731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2683287340700958099}
+  - component: {fileID: 9174353423217729080}
+  m_Layer: 8
+  m_Name: Range
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2683287340700958099
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8250815955148261731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.228}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4969579474597971306}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &9174353423217729080
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8250815955148261731}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}

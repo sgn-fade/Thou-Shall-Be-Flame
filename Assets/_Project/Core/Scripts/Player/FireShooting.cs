@@ -2,10 +2,9 @@ using System;
 using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
 using UnityEngine.InputSystem;
-
-namespace _Project.Core.Scripts.Player
+namespace Flame
 {
-    public class FireShooting : MonoBehaviour
+public class FireShooting : MonoBehaviour
     {
         [SerializeField] private GameObject _sparkProjectile;
         [SerializeField] private float _shootImpulse = 10f;

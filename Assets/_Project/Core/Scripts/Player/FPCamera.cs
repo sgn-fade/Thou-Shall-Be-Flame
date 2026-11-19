@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-
+namespace Flame
+{
 public class PlayerCamera : MonoBehaviour
 {
     [SerializeField] private Transform player;
@@ -31,4 +32,5 @@ public class PlayerCamera : MonoBehaviour
 
         player.Rotate(Vector3.up * mouseX);
     }
+}
 }

@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-
+namespace Flame
+{
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
@@ -43,4 +44,5 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
     }
+}
 }
