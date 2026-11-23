@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4aab24005ca8a71439b3076c11f566c8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Effects/Campfire
+    Embers.prefab
+  uploadId: 1057280

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f359d2cd327d87845acab16ea30ff62f, type: 3}
+  m_Name: URP Unlit
+  m_EditorClassIdentifier: PaleFernStudio.Looksmith.Editor::PaleFernStudio.Looksmith.Editor.LooksmithRestyleRule
+  sourceShaders:
+  - Universal Render Pipeline/Unlit
+  target: {fileID: -6465566751694194690, guid: d7b069b0d9ce5a612f0c90da3cc7ff9c, type: 3}
+  recipe: 1
+  vertexColorAmount: 0
+  pairs: []
+  inverse: 0
+  priority: 0
+  pairsFromInspectorNames: 0
+  twoSided: 0

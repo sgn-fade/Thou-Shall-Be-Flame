@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a3746578799e75248a468d0002d45c04
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Effects/Falling
+    Leaves.prefab
+  uploadId: 1057280

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3517ac0807b3d5b4ebe0ba4fbd65bc76
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/FlowersPurple.prefab
+  uploadId: 1057280

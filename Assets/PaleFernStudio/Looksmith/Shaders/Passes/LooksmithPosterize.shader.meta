@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cc97f5dc9029c1746a56b715f5fc1f71
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Shaders/Passes/LooksmithPosterize.shader
+  uploadId: 1057280

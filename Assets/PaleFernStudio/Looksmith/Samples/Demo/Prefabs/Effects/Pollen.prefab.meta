@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9773c43210dfa3943bb37aa1998553d8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Effects/Pollen.prefab
+  uploadId: 1057280

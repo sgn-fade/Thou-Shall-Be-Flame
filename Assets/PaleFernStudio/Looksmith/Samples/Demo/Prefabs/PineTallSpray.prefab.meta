@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cca5c185ec2d54048ac01eafd8241786
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/PineTallSpray.prefab
+  uploadId: 1057280

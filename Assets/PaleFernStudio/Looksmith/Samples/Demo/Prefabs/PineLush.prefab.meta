@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 58abc8b0da361274c9a7fe76f0c4db01
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/PineLush.prefab
+  uploadId: 1057280

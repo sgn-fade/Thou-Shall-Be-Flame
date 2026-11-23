@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e423ad3fb5cb51346bdd2e3ad4b9c7cc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Pumpkins.prefab
+  uploadId: 1057280

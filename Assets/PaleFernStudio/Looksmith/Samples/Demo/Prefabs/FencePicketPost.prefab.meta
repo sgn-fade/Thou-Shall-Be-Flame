@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fa6312579ae502a44aacaa3d81be9d22
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/FencePicketPost.prefab
+  uploadId: 1057280

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8720a697bfcab544cb91de33f9089443
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/BlossomTree.prefab
+  uploadId: 1057280

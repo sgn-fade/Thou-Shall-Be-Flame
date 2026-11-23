@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d8dd981ee035ffc49bffcf842ed1ddb0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Barrel.prefab
+  uploadId: 1057280

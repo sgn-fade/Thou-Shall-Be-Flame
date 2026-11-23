@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4745e1caf257f314c82ac24789bc0563
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Shaders/Passes/LooksmithSway.shader
+  uploadId: 1057280

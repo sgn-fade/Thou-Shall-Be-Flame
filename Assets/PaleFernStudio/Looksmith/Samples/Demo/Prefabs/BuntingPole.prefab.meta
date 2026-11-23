@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 177b2ef87b8a2cb418ca82e8ce46ba7e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/BuntingPole.prefab
+  uploadId: 1057280

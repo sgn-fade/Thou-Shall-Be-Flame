@@ -1,0 +1,9 @@
+CHANGELOG - Looksmith
+by Pale Fern Studio
+=========================================================================
+
+
+1.0.0
+-----
+
+Initial release.

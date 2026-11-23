@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e848679a290e06c4fa35de058d87a73c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/FarmPlot.prefab
+  uploadId: 1057280

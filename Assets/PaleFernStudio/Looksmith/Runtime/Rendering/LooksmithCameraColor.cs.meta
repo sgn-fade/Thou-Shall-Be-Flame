@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 4ba1f05bce79be44b8b68d1c493e3f85
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Runtime/Rendering/LooksmithCameraColor.cs
+  uploadId: 1057280

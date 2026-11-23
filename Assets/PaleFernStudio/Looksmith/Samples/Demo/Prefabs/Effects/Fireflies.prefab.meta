@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b9e20f7533b468e41a3cfbdf9baeee9f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Effects/Fireflies.prefab
+  uploadId: 1057280

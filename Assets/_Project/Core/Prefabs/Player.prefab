@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::_Project.Core.Scripts.Player.FireShooting
   _sparkProjectile: {fileID: 7782552504089107133, guid: df1b777f23c1e244bb9c190d218c8912, type: 3}
-  _shootImpulse: 30
+  _shootImpulse: 60
   _camera: {fileID: 3738835355838745560}
 --- !u!54 &1773541681041981013
 Rigidbody:

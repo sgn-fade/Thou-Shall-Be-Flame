@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 96610f84d5459554ba1a34568d5253dc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/FlowersWhite.prefab
+  uploadId: 1057280

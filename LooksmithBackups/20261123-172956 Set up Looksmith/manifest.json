@@ -1,0 +1,232 @@
+{
+    "id": "20261123-172956 Set up Looksmith",
+    "label": "Set up Looksmith",
+    "createdUtc": "2026-11-23T15:29:56.4553546Z",
+    "unityVersion": "6000.3.21f1",
+    "status": "applied",
+    "undoGroup": 43,
+    "backupTaken": true,
+    "entries": [
+        {
+            "path": "Assets/ExplosivesPackage/Materials/Explosives.mat",
+            "kind": "modified",
+            "sha256Before": "B9B6AA94F302E015C21A444243FC15967C87DBB7EC0C097A7BAE10927A185386",
+            "metaSha256Before": "5E3525A45026AC6FE51077EEB2F5EA834D005EFB7C13F9A82CFE06F55C2B0A7C",
+            "sha256After": "F34BE49C58EB6C27DB2863425F805478B559DC65D500A25D484DB273B67ED6C2",
+            "metaSha256After": "5E3525A45026AC6FE51077EEB2F5EA834D005EFB7C13F9A82CFE06F55C2B0A7C"
+        },
+        {
+            "path": "Assets/Looksmith Generated",
+            "kind": "created",
+            "sha256Before": "",
+            "metaSha256Before": "",
+            "sha256After": "dir",
+            "metaSha256After": "118C4873662AD1EB39CD4CB5180A07430FE0407E9AECD63D82AC6772D4A8F792"
+        },
+        {
+            "path": "Assets/Looksmith Generated.meta",
+            "kind": "created",
+            "sha256Before": "",
+            "metaSha256Before": "",
+            "sha256After": "118C4873662AD1EB39CD4CB5180A07430FE0407E9AECD63D82AC6772D4A8F792",
+            "metaSha256After": ""
+        },
+        {
+            "path": "Assets/Looksmith Generated/Looks",
+            "kind": "created",
+            "sha256Before": "",
+            "metaSha256Before": "",
+            "sha256After": "dir",
+            "metaSha256After": "014AFB5EE37299AC4027A4491EF2139F12DD6EDA448E9F1104E05F6A468972AA"
+        },
+        {
+            "path": "Assets/Looksmith Generated/Looks.meta",
+            "kind": "created",
+            "sha256Before": "",
+            "metaSha256Before": "",
+            "sha256After": "014AFB5EE37299AC4027A4491EF2139F12DD6EDA448E9F1104E05F6A468972AA",
+            "metaSha256After": ""
+        },
+        {
+            "path": "Assets/Looksmith Generated/Looks/Main Look.asset",
+            "kind": "created",
+            "sha256Before": "",
+            "metaSha256Before": "",
+            "sha256After": "4DA6628F421C384DBFC7B30B88DBF9D24230A8A3B3322906ED1696F93F07D3D2",
+            "metaSha256After": "89981536582684DCCE239D3AB3C85EF441AFEBCD3444733833FCC92FAAF7E425"
+        },
+        {
+            "path": "Assets/Looksmith Generated/Materials",
+            "kind": "created",
+            "sha256Before": "",
+            "metaSha256Before": "",
+            "sha256After": "dir",
+            "metaSha256After": "3F9719D3CCC784AA1B10D85DDB8A6F8FE722DC5C8236AB107083116FD35268E2"
+        },
+        {
+            "path": "Assets/Looksmith Generated/Materials.meta",
+            "kind": "created",
+            "sha256Before": "",
+            "metaSha256Before": "",
+            "sha256After": "3F9719D3CCC784AA1B10D85DDB8A6F8FE722DC5C8236AB107083116FD35268E2",
+            "metaSha256After": ""
+        },
+        {
+            "path": "Assets/Looksmith Generated/Materials/Lit (Looksmith).mat",
+            "kind": "created",
+            "sha256Before": "",
+            "metaSha256Before": "",
+            "sha256After": "43F86839D4D02CA2D0C366C545CC1E7E514F05835DAB9C0A5CB7A039B0F55105",
+            "metaSha256After": "F30175FB7696EB53B45DB4E1A8AD7BB4003A216098738162668B0F7B27A179B7"
+        },
+        {
+            "path": "Assets/Stylized Explosives/Materials/AGC.mat",
+            "kind": "modified",
+            "sha256Before": "7C60DB71437FA739800F7F1329CAD0BEAACA61D47CAB69C5BFCAF9C37E2B360C",
+            "metaSha256Before": "02F685C021FF3DA80D3F487C0020989BC30EDC80D013D724400B6C7A61D3B003",
+            "sha256After": "6B825990C29329AF35ED58FC0B3D60E12CD8CEF4080D606944F449D402E6AB7D",
+            "metaSha256After": "02F685C021FF3DA80D3F487C0020989BC30EDC80D013D724400B6C7A61D3B003"
+        },
+        {
+            "path": "Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Materials/SmokeySteam01.mat",
+            "kind": "modified",
+            "sha256Before": "5272A8C6FA0725107A7000C2F44D318A1E369C802ADA069946F76FA19FA00BB9",
+            "metaSha256Before": "5F37C2577449F4457F7C2374CC583AD11FFB3346015373CFCC65F50F489DE18B",
+            "sha256After": "73F1ED9124E0F35DBB04445CAAF1D5E4869618FF0BC515A944C7A1EE6F1421C7",
+            "metaSha256After": "5F37C2577449F4457F7C2374CC583AD11FFB3346015373CFCC65F50F489DE18B"
+        },
+        {
+            "path": "Assets/WoodsLifestyle/Materials/BrownMat_04.mat",
+            "kind": "modified",
+            "sha256Before": "61CAAADE38B07AEBD1EE09066F4C542482DFB820EE96BCBDDC7151CB414B577C",
+            "metaSha256Before": "2F695010FB98354396EE579EAF720EBC976FD8B785C254E732D91AF591B0247D",
+            "sha256After": "F741388A046AE83D0753CB2FFB38FBB81041570F3B9EF6B3576F1469B5D4FD6C",
+            "metaSha256After": "2F695010FB98354396EE579EAF720EBC976FD8B785C254E732D91AF591B0247D"
+        },
+        {
+            "path": "Assets/WoodsLifestyle/Materials/FullRange_All_01.mat",
+            "kind": "modified",
+            "sha256Before": "673372B97C71A7E753FDD84D03A32389DDDD13CBF66B30C0E0A5F161E475D8CD",
+            "metaSha256Before": "733A0822E44702602405D04EC79B3033AF9302BD35438BD39731B64430B0E0E9",
+            "sha256After": "9334E82C9C22FBF7E9918DDDA20314ABE24B5E6610711CC077DDD4DD0D64C09E",
+            "metaSha256After": "733A0822E44702602405D04EC79B3033AF9302BD35438BD39731B64430B0E0E9"
+        },
+        {
+            "path": "Assets/_Project/Core/Scenes/Main.unity",
+            "kind": "modified",
+            "sha256Before": "AE831980324409330BA14E139BBD923A8BBC76762D5CECD9F5CFFCEC0DF14AA7",
+            "metaSha256Before": "B5815A6B12AFAF810577BC89041C4CE46516C7CD6609693F8DB616F8E5584D80",
+            "sha256After": "4D96FE94DDD700C724125BB93C69010A532D47CDD3EE109A72771F6940567682",
+            "metaSha256After": "B5815A6B12AFAF810577BC89041C4CE46516C7CD6609693F8DB616F8E5584D80"
+        }
+    ],
+    "ledger": [
+        {
+            "scenePath": "Assets/_Project/Core/Scenes/Main.unity",
+            "globalObjectId": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-537534003-0",
+            "name": "Looksmith",
+            "instanceId": -12440,
+            "entityId": "",
+            "kind": "created",
+            "detail": ""
+        },
+        {
+            "scenePath": "Assets/_Project/Core/Scenes/Main.unity",
+            "globalObjectId": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1532989720-0",
+            "name": "Floor",
+            "instanceId": 47466,
+            "entityId": "",
+            "kind": "remap",
+            "detail": "Lit → Lit (Looksmith)"
+        },
+        {
+            "scenePath": "Assets/_Project/Core/Scenes/Main.unity",
+            "globalObjectId": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3515030402084084174-290600537",
+            "name": "Capsule",
+            "instanceId": -1874,
+            "entityId": "",
+            "kind": "remap",
+            "detail": "Lit → Lit (Looksmith)"
+        },
+        {
+            "scenePath": "Assets/_Project/Core/Scenes/Main.unity",
+            "globalObjectId": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-42301184-0",
+            "name": "Plane",
+            "instanceId": 47374,
+            "entityId": "",
+            "kind": "remap",
+            "detail": "Lit → Lit (Looksmith)"
+        },
+        {
+            "scenePath": "Assets/_Project/Core/Scenes/Main.unity",
+            "globalObjectId": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-442700824-0",
+            "name": "Plane (1)",
+            "instanceId": 47418,
+            "entityId": "",
+            "kind": "remap",
+            "detail": "Lit → Lit (Looksmith)"
+        },
+        {
+            "scenePath": "Assets/_Project/Core/Scenes/Main.unity",
+            "globalObjectId": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-845282173-0",
+            "name": "Plane (2)",
+            "instanceId": 47448,
+            "entityId": "",
+            "kind": "remap",
+            "detail": "Lit → Lit (Looksmith)"
+        },
+        {
+            "scenePath": "Assets/_Project/Core/Scenes/Main.unity",
+            "globalObjectId": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-831094385-0",
+            "name": "Plane (3)",
+            "instanceId": 47432,
+            "entityId": "",
+            "kind": "remap",
+            "detail": "Lit → Lit (Looksmith)"
+        }
+    ],
+    "changes": [
+        {
+            "type": "PaleFernStudio.Looksmith.Editor.SetCameraPostProcessingChange, PaleFernStudio.Looksmith.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "json": "{\"enabled\":true,\"scenePath\":\"Assets/_Project/Core/Scenes/Main.unity\",\"cameraGlobalId\":\"GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3738835355838745560-290600537\",\"cameraName\":\"Camera\"}"
+        },
+        {
+            "type": "PaleFernStudio.Looksmith.Editor.CreateLookProfileChange, PaleFernStudio.Looksmith.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "json": "{\"enabled\":true,\"profilePath\":\"Assets/Looksmith Generated/Looks/Main Look.asset\",\"lookName\":\"Cel Anime\"}"
+        },
+        {
+            "type": "PaleFernStudio.Looksmith.Editor.AddLooksmithRootChange, PaleFernStudio.Looksmith.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "json": "{\"enabled\":true,\"scenePath\":\"Assets/_Project/Core/Scenes/Main.unity\",\"profilePath\":\"Assets/Looksmith Generated/Looks/Main Look.asset\"}"
+        },
+        {
+            "type": "PaleFernStudio.Looksmith.Editor.RestyleMaterialChange, PaleFernStudio.Looksmith.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "json": "{\"enabled\":true,\"materialPath\":\"Assets/WoodsLifestyle/Materials/FullRange_All_01.mat\",\"sourceShader\":\"Universal Render Pipeline/Lit\",\"groupName\":\"Your materials\",\"spec\":{\"ruleName\":\"URP Lit family\",\"recipe\":0,\"targetShaderGuid\":\"4655b42f828af956d784eeb828da9a96\",\"targetShaderName\":\"Looksmith/Looksmith Lit\",\"vertexColorAmount\":0.0,\"pairs\":[],\"twoSided\":false}}"
+        },
+        {
+            "type": "PaleFernStudio.Looksmith.Editor.RestyleMaterialChange, PaleFernStudio.Looksmith.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "json": "{\"enabled\":true,\"materialPath\":\"Assets/WoodsLifestyle/Materials/BrownMat_04.mat\",\"sourceShader\":\"Universal Render Pipeline/Lit\",\"groupName\":\"Your materials\",\"spec\":{\"ruleName\":\"URP Lit family\",\"recipe\":0,\"targetShaderGuid\":\"4655b42f828af956d784eeb828da9a96\",\"targetShaderName\":\"Looksmith/Looksmith Lit\",\"vertexColorAmount\":0.0,\"pairs\":[],\"twoSided\":false}}"
+        },
+        {
+            "type": "PaleFernStudio.Looksmith.Editor.RestyleMaterialChange, PaleFernStudio.Looksmith.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "json": "{\"enabled\":true,\"materialPath\":\"Assets/Stylized Explosives/Materials/AGC.mat\",\"sourceShader\":\"Universal Render Pipeline/Lit\",\"groupName\":\"Your materials\",\"spec\":{\"ruleName\":\"URP Lit family\",\"recipe\":0,\"targetShaderGuid\":\"4655b42f828af956d784eeb828da9a96\",\"targetShaderName\":\"Looksmith/Looksmith Lit\",\"vertexColorAmount\":0.0,\"pairs\":[],\"twoSided\":false}}"
+        },
+        {
+            "type": "PaleFernStudio.Looksmith.Editor.RestyleMaterialChange, PaleFernStudio.Looksmith.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "json": "{\"enabled\":true,\"materialPath\":\"Assets/ExplosivesPackage/Materials/Explosives.mat\",\"sourceShader\":\"Universal Render Pipeline/Simple Lit\",\"groupName\":\"Your materials\",\"spec\":{\"ruleName\":\"URP Lit family\",\"recipe\":0,\"targetShaderGuid\":\"4655b42f828af956d784eeb828da9a96\",\"targetShaderName\":\"Looksmith/Looksmith Lit\",\"vertexColorAmount\":0.0,\"pairs\":[],\"twoSided\":false}}"
+        },
+        {
+            "type": "PaleFernStudio.Looksmith.Editor.RestyleMaterialChange, PaleFernStudio.Looksmith.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "json": "{\"enabled\":true,\"materialPath\":\"Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Materials/SmokeySteam01.mat\",\"sourceShader\":\"Universal Render Pipeline/Particles/Lit\",\"groupName\":\"Your materials\",\"spec\":{\"ruleName\":\"URP Particles\",\"recipe\":2,\"targetShaderGuid\":\"552f550eb97fd386810e9438fc3868f7\",\"targetShaderName\":\"Looksmith/Looksmith Particles\",\"vertexColorAmount\":0.0,\"pairs\":[],\"twoSided\":false}}"
+        },
+        {
+            "type": "PaleFernStudio.Looksmith.Editor.GenerateRestyledCopyChange, PaleFernStudio.Looksmith.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "json": "{\"enabled\":true,\"sourceGlobalId\":\"GlobalObjectId_V1-3-31321ba15b8f8eb4c954353edc038b1d-2100000-0\",\"sourceName\":\"Lit\",\"sourceShader\":\"Universal Render Pipeline/Lit\",\"copyPath\":\"Assets/Looksmith Generated/Materials/Lit (Looksmith).mat\",\"groupName\":\"Package and built-in materials (restyled copies)\",\"spec\":{\"ruleName\":\"URP Lit family\",\"recipe\":0,\"targetShaderGuid\":\"4655b42f828af956d784eeb828da9a96\",\"targetShaderName\":\"Looksmith/Looksmith Lit\",\"vertexColorAmount\":0.0,\"pairs\":[],\"twoSided\":false}}"
+        },
+        {
+            "type": "PaleFernStudio.Looksmith.Editor.RemapRenderersChange, PaleFernStudio.Looksmith.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "json": "{\"enabled\":true,\"scenePath\":\"Assets/_Project/Core/Scenes/Main.unity\",\"entries\":[{\"objectGlobalId\":\"GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1532989720-0\",\"slot\":0,\"fromName\":\"Lit\",\"toPath\":\"Assets/Looksmith Generated/Materials/Lit (Looksmith).mat\"},{\"objectGlobalId\":\"GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3515030402084084174-290600537\",\"slot\":0,\"fromName\":\"Lit\",\"toPath\":\"Assets/Looksmith Generated/Materials/Lit (Looksmith).mat\"},{\"objectGlobalId\":\"GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-42301184-0\",\"slot\":0,\"fromName\":\"Lit\",\"toPath\":\"Assets/Looksmith Generated/Materials/Lit (Looksmith).mat\"},{\"objectGlobalId\":\"GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-442700824-0\",\"slot\":0,\"fromName\":\"Lit\",\"toPath\":\"Assets/Looksmith Generated/Materials/Lit (Looksmith).mat\"},{\"objectGlobalId\":\"GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-845282173-0\",\"slot\":0,\"fromName\":\"Lit\",\"toPath\":\"Assets/Looksmith Generated/Materials/Lit (Looksmith).mat\"},{\"objectGlobalId\":\"GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-831094385-0\",\"slot\":0,\"fromName\":\"Lit\",\"toPath\":\"Assets/Looksmith Generated/Materials/Lit (Looksmith).mat\"}],\"groupName\":\"Package and built-in materials (restyled copies)\"}"
+        }
+    ],
+    "nextChange": 10,
+    "error": ""
+}

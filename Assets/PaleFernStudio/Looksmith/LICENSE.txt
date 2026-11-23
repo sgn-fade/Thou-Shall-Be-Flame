@@ -1,0 +1,10 @@
+LICENSE NOTICE - Looksmith
+
+Copyright (c) 2026 Pale Fern Studio. All rights reserved.
+
+This package is licensed under the Unity Asset Store End User License Agreement (EULA).
+
+By purchasing, downloading, or using this asset, you agree to the terms of the Unity Asset Store EULA:
+https://unity.com/legal/as-terms
+
+For support or business inquiries, contact: paleferndev@gmail.com

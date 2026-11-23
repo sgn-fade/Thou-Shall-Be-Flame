@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e8cb83ea0b8c9434e934eef80250edd5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Looks/Variants/Stylized Realism (Cozy)
+    Look.asset
+  uploadId: 1057280

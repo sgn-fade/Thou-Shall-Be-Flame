@@ -1,0 +1,54 @@
+.looksmith-root { flex-grow: 1; padding: 0; }
+.looksmith-header { flex-direction: row; align-items: center; padding: 8px 12px; border-bottom-width: 1px; border-color: rgba(128,128,128,0.3); }
+.looksmith-title { font-size: 16px; -unity-font-style: bold; flex-grow: 1; }
+.looksmith-badge { padding: 2px 8px; border-radius: 8px; margin-left: 8px; font-size: 11px; }
+.looksmith-badge--ok { background-color: rgba(60,160,90,0.35); }
+.looksmith-badge--warn { background-color: rgba(220,150,40,0.45); }
+.looksmith-tabs { flex-direction: row; padding: 4px 8px 0 8px; border-bottom-width: 1px; border-color: rgba(128,128,128,0.3); }
+.looksmith-tab { margin: 0 2px; padding: 4px 12px; border-width: 0; border-radius: 4px 4px 0 0; background-color: rgba(0,0,0,0); }
+.looksmith-tab--active { background-color: rgba(128,128,128,0.22); -unity-font-style: bold; }
+.looksmith-page { flex-grow: 1; padding: 12px; }
+.looksmith-h1 { font-size: 15px; -unity-font-style: bold; margin-bottom: 4px; }
+.looksmith-h2 { font-size: 13px; -unity-font-style: bold; margin-top: 10px; margin-bottom: 4px; }
+.looksmith-muted { opacity: 0.7; white-space: normal; }
+.looksmith-text { white-space: normal; }
+.looksmith-row { flex-direction: row; align-items: center; margin: 2px 0; }
+.looksmith-card { border-width: 1px; border-radius: 6px; border-color: rgba(128,128,128,0.35); padding: 8px; margin: 6px 0; }
+.looksmith-stepper { flex-direction: row; margin-bottom: 8px; }
+.looksmith-step { padding: 4px 10px; margin-right: 6px; border-radius: 10px; background-color: rgba(128,128,128,0.18); }
+.looksmith-step--active { background-color: rgba(43,196,176,0.45); -unity-font-style: bold; }
+.looksmith-step--done { background-color: rgba(60,160,90,0.30); }
+.looksmith-sev { width: 92px; -unity-text-align: middle-center; border-radius: 4px; margin-right: 6px; font-size: 11px; padding: 1px 0; }
+.looksmith-sev--blocking { background-color: rgba(200,50,50,0.55); }
+.looksmith-sev--recommended { background-color: rgba(220,150,40,0.55); }
+.looksmith-sev--headsup { background-color: rgba(60,120,210,0.50); }
+.looksmith-sev--info { background-color: rgba(128,128,128,0.35); }
+.looksmith-sev--ready { background-color: rgba(60,160,90,0.45); }
+.looksmith-primary { background-color: rgba(43,196,176,0.55); -unity-font-style: bold; padding: 4px 14px; }
+.looksmith-conflict { background-color: rgba(220,150,40,0.15); border-radius: 4px; padding: 4px; }
+.looksmith-gallery { flex-direction: row; flex-wrap: wrap; margin: 4px 0 8px 0; }
+.looksmith-look-card { width: 172px; margin: 3px; padding: 4px; border-width: 1px; border-radius: 6px; border-color: rgba(128,128,128,0.35); background-color: rgba(128,128,128,0.08); flex-direction: column; align-items: stretch; }
+.looksmith-look-card:hover { border-color: rgba(43,196,176,0.8); }
+.looksmith-look-card--current { border-width: 2px; border-color: rgba(43,196,176,1); background-color: rgba(43,196,176,0.15); }
+.looksmith-look-thumb { height: 102px; border-radius: 4px; overflow: hidden; }
+.looksmith-look-name { -unity-text-align: middle-center; margin-top: 3px; white-space: normal; }
+.looksmith-look-entry { width: 180px; margin: 3px; flex-direction: column; }
+.looksmith-look-entry > .looksmith-look-card { width: auto; margin: 0; }
+.looksmith-variants { flex-direction: row; flex-wrap: wrap; justify-content: center; margin-top: 2px; }
+.looksmith-variant { font-size: 10px; padding: 1px 6px; margin: 1px; border-radius: 8px; }
+.looksmith-variant--current { background-color: rgba(43,196,176,0.55); }
+.looksmith-compare { flex-direction: row; align-items: center; margin: 6px 0; }
+.looksmith-chip { align-self: flex-start; border-radius: 10px; padding: 2px 10px; background-color: rgba(220,150,40,0.30); margin-top: 6px; }
+.looksmith-link { align-self: flex-start; border-width: 0; background-color: rgba(0,0,0,0); color: rgb(90,170,240); padding: 2px 4px; margin: 2px 6px 2px 0; }
+.looksmith-link:hover { color: rgb(140,200,255); }
+.looksmith-pro-card { background-color: rgba(128,128,128,0.06); }
+.looksmith-pro-card-image { height: 140px; border-radius: 4px; overflow: hidden; margin-bottom: 6px; }
+.looksmith-pro-preview { background-color: rgba(128,128,128,0.06); }
+.looksmith-preview-frame { position: relative; overflow: hidden; border-radius: 4px; margin: 6px 0 2px 0; height: 300px; background-color: rgb(20,20,22); }
+.looksmith-preview-image { position: absolute; left: 0; top: 0; }
+.looksmith-preview-clip { position: absolute; left: 0; top: 0; bottom: 0; overflow: hidden; }
+.looksmith-preview-line { position: absolute; top: 0; bottom: 0; width: 2px; background-color: rgba(255,255,255,0.9); }
+.looksmith-preview-tag { position: absolute; top: 6px; padding: 2px 6px; border-radius: 3px; font-size: 10px; color: rgb(240,240,240); background-color: rgba(0,0,0,0.55); }
+.looksmith-preview-tag--left { left: 6px; }
+.looksmith-preview-tag--right { right: 6px; }
+.looksmith-play-note { background-color: rgba(60,120,210,0.30); padding: 4px 12px; white-space: normal; }

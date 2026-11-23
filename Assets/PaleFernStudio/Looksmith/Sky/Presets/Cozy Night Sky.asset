@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab6c31337147db4589ca251d9ec0bf5, type: 3}
+  m_Name: Cozy Night Sky
+  m_EditorClassIdentifier: PaleFernStudio.Looksmith.Runtime::PaleFernStudio.Looksmith.LooksmithSkyPreset
+  zenith: {r: 0.050980393, g: 0.08627451, b: 0.21176471, a: 1}
+  horizon: {r: 0.16470589, g: 0.22745098, b: 0.4, a: 1}
+  ground: {r: 0.08235294, g: 0.101960786, b: 0.15686275, a: 1}
+  horizonCurve: 0.45
+  groundBlend: 0.12
+  glow: {r: 0.22745098, g: 0.2901961, b: 0.47843137, a: 1}
+  glowStrength: 0.2
+  exposure: 1
+  sunElevation: -30
+  sunAzimuth: 300
+  sunColor: {r: 1, g: 0.9647059, b: 0.9098039, a: 1}
+  sunIntensity: 0
+  sunSize: 1.2
+  sunHalo: 0.6
+  shadowStrength: 1
+  lookKeyTint: 0.15
+  moonElevation: 42
+  moonAzimuth: 200
+  moonColor: {r: 0.6862745, g: 0.76862746, b: 1, a: 1}
+  moonIntensity: 0.3
+  moonSize: 2.4
+  moonPhase: 0.2
+  starDensity: 0.75
+  starBrightness: 1
+  twinkle: 0.5
+  milkyWay: 0.6
+  cloudCover: 0.14
+  cloudLit: {r: 0.2901961, g: 0.3529412, b: 0.5411765, a: 1}
+  cloudShade: {r: 0.101960786, g: 0.13333334, b: 0.2509804, a: 1}
+  cloudOpacity: 0.9
+  cloudScale: 0.3
+  cloudSpeed: 0.008
+  cloudSoftness: 0.08
+  cloudSteps: 3
+  ambientSky: {r: 0.16470589, g: 0.22745098, b: 0.41568628, a: 1}
+  ambientEquator: {r: 0.14509805, g: 0.1882353, b: 0.30588236, a: 1}
+  ambientGround: {r: 0.07450981, g: 0.08235294, b: 0.12156863, a: 1}
+  ambientIntensity: 1.1
+  fog: 0
+  fogColor: {r: 0.72156864, g: 0.74509805, b: 0.76862746, a: 1}
+  fogDensity: 0.01
+  reflectionIntensity: 0.8

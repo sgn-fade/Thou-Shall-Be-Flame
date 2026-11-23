@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e7580286406d50444b450a1624cb0bd3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Looks/Variants/Stylized Realism (Night)
+    Look.asset
+  uploadId: 1057280

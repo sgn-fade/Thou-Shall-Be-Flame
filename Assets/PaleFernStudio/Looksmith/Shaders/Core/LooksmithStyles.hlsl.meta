@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3e42293828faab144a1a8e99865d4364
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Shaders/Core/LooksmithStyles.hlsl
+  uploadId: 1057280

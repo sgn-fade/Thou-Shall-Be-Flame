@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 783fbb5ef73ec3b4f823a21f8ad4eeb1
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/LICENSE.txt
+  uploadId: 1057280

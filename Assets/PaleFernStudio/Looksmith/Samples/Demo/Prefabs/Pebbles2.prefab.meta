@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 049c329bfdcc7a04893b608ae242d801
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Pebbles2.prefab
+  uploadId: 1057280

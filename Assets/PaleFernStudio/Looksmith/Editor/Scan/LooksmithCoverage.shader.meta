@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a960b64a09801944198bb3be9ed2215e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Editor/Scan/LooksmithCoverage.shader
+  uploadId: 1057280

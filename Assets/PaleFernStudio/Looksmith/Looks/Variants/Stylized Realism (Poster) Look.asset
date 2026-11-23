@@ -1,0 +1,533 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8281726415784116837
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.Bloom
+  active: 1
+  skipIterations:
+    m_OverrideState: 1
+    m_Value: 1
+  threshold:
+    m_OverrideState: 1
+    m_Value: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.25
+  scatter:
+    m_OverrideState: 1
+    m_Value: 0.7
+  clamp:
+    m_OverrideState: 1
+    m_Value: 65472
+  tint:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  highQualityFiltering:
+    m_OverrideState: 1
+    m_Value: 0
+  filter:
+    m_OverrideState: 1
+    m_Value: 0
+  downscale:
+    m_OverrideState: 1
+    m_Value: 0
+  maxIterations:
+    m_OverrideState: 1
+    m_Value: 6
+  dirtTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+    dimension: 1
+  dirtIntensity:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &-4945254832963167926
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b41121a7c2ce4644f818b90fa0a4e27e, type: 3}
+  m_Name: LooksmithPosterize
+  m_EditorClassIdentifier: PaleFernStudio.Looksmith.Runtime::PaleFernStudio.Looksmith.LooksmithPosterize
+  active: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  order:
+    m_OverrideState: 1
+    m_Value: 200
+  layers:
+    m_OverrideState: 1
+    m_Value: -1
+  lightnessLevels:
+    m_OverrideState: 1
+    m_Value: 7
+  chromaLevels:
+    m_OverrideState: 1
+    m_Value: 0
+  hueLevels:
+    m_OverrideState: 1
+    m_Value: 0
+  bandSoftness:
+    m_OverrideState: 1
+    m_Value: 0.22
+  dither:
+    m_OverrideState: 1
+    m_Value: 0
+  gradientMap:
+    m_OverrideState: 1
+    m_Value: 0
+  gradientFromLook:
+    m_OverrideState: 1
+    m_Value: 1
+  gradientShadow:
+    m_OverrideState: 1
+    m_Value: {r: 0.12, g: 0.1, b: 0.25, a: 1}
+  gradientMid:
+    m_OverrideState: 1
+    m_Value: {r: 0.75, g: 0.4, b: 0.4, a: 1}
+  gradientLight:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 0.93, b: 0.8, a: 1}
+  palette:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  paletteAmount:
+    m_OverrideState: 1
+    m_Value: 1
+  paletteDither:
+    m_OverrideState: 1
+    m_Value: 0.3
+--- !u!114 &-4174393516604056898
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29fa0085f50d5e54f8144f766051a691, type: 3}
+  m_Name: FilmGrain
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.FilmGrain
+  active: 0
+  type:
+    m_OverrideState: 1
+    m_Value: 4
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0
+  response:
+    m_OverrideState: 1
+    m_Value: 0.8
+  texture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+--- !u!114 &-801462946108022595
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
+  m_Name: ChromaticAberration
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.ChromaticAberration
+  active: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &-310267453697768222
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.Vignette
+  active: 0
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  center:
+    m_OverrideState: 1
+    m_Value: {x: 0.5, y: 0.5}
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0
+  smoothness:
+    m_OverrideState: 1
+    m_Value: 0.2
+  rounded:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Stylized Realism (Poster) Look
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.VolumeProfile
+  components:
+  - {fileID: 8274103623041669760}
+  - {fileID: 1080103049354158206}
+  - {fileID: -8281726415784116837}
+  - {fileID: 4218581424411452118}
+  - {fileID: -310267453697768222}
+  - {fileID: -4174393516604056898}
+  - {fileID: -801462946108022595}
+  - {fileID: -4945254832963167926}
+--- !u!114 &1080103049354158206
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c23e3b12dc18c42a140437e53d3951, type: 3}
+  m_Name: Tonemapping
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.Tonemapping
+  active: 1
+  mode:
+    m_OverrideState: 1
+    m_Value: 2
+  neutralHDRRangeReductionMode:
+    m_OverrideState: 1
+    m_Value: 2
+  acesPreset:
+    m_OverrideState: 1
+    m_Value: 3
+  hueShiftAmount:
+    m_OverrideState: 1
+    m_Value: 0
+  detectPaperWhite:
+    m_OverrideState: 1
+    m_Value: 0
+  paperWhite:
+    m_OverrideState: 1
+    m_Value: 300
+  detectBrightnessLimits:
+    m_OverrideState: 1
+    m_Value: 1
+  minNits:
+    m_OverrideState: 1
+    m_Value: 0.005
+  maxNits:
+    m_OverrideState: 1
+    m_Value: 1000
+--- !u!114 &4218581424411452118
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f335fb1ffd8684294ad653bf1c7564, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.ColorAdjustments
+  active: 1
+  postExposure:
+    m_OverrideState: 1
+    m_Value: 0.25
+  contrast:
+    m_OverrideState: 1
+    m_Value: 10
+  colorFilter:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  hueShift:
+    m_OverrideState: 1
+    m_Value: 0
+  saturation:
+    m_OverrideState: 1
+    m_Value: 10
+--- !u!114 &8274103623041669760
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06fb398913702484e9e396adb928a859, type: 3}
+  m_Name: LooksmithLook
+  m_EditorClassIdentifier: PaleFernStudio.Looksmith.Runtime::PaleFernStudio.Looksmith.LooksmithLook
+  active: 1
+  style:
+    m_OverrideState: 1
+    m_Value: 1
+  softness:
+    m_OverrideState: 1
+    m_Value: 0.5
+  contrast:
+    m_OverrideState: 1
+    m_Value: 0.5
+  warmth:
+    m_OverrideState: 1
+    m_Value: 0.5
+  rim:
+    m_OverrideState: 1
+    m_Value: 0.5
+  shine:
+    m_OverrideState: 1
+    m_Value: 0.5
+  bands:
+    m_OverrideState: 1
+    m_Value: 3
+  bandMix:
+    m_OverrideState: 1
+    m_Value: 0.6
+  edgeSoftness:
+    m_OverrideState: 1
+    m_Value: 0.2
+  terminator:
+    m_OverrideState: 1
+    m_Value: 0
+  wrap:
+    m_OverrideState: 1
+    m_Value: 0.2
+  bandSpread:
+    m_OverrideState: 1
+    m_Value: 0.7
+  gradientRamp:
+    m_OverrideState: 1
+    m_Value: 0
+  gradientShadow:
+    m_OverrideState: 1
+    m_Value: {r: 0.25, g: 0.25, b: 0.45, a: 1}
+  gradientMid:
+    m_OverrideState: 1
+    m_Value: {r: 0.8, g: 0.55, b: 0.5, a: 1}
+  gradientLit:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 0.95, b: 0.85, a: 1}
+  painted:
+    m_OverrideState: 1
+    m_Value: 0
+  brushScale:
+    m_OverrideState: 1
+    m_Value: 0.35
+  facets:
+    m_OverrideState: 1
+    m_Value: 0
+  pbrBlend:
+    m_OverrideState: 1
+    m_Value: 0.275
+  keyLevel:
+    m_OverrideState: 1
+    m_Value: 0.9
+  keyTint:
+    m_OverrideState: 1
+    m_Value: 1
+  shadowHardness:
+    m_OverrideState: 1
+    m_Value: 0.8
+  terminatorAccent:
+    m_OverrideState: 1
+    m_Value: 0.12
+  rimStrength:
+    m_OverrideState: 1
+    m_Value: 0.2
+  rimWidth:
+    m_OverrideState: 1
+    m_Value: 0.3
+  rimSoftness:
+    m_OverrideState: 1
+    m_Value: 0.3
+  rimLightFacing:
+    m_OverrideState: 1
+    m_Value: 0.6
+  rimFromAccent:
+    m_OverrideState: 1
+    m_Value: 0
+  specularStyle:
+    m_OverrideState: 1
+    m_Value: 1
+  specularStrength:
+    m_OverrideState: 1
+    m_Value: 0.6
+  specularSize:
+    m_OverrideState: 1
+    m_Value: 0.5
+  specularSoftness:
+    m_OverrideState: 1
+    m_Value: 0.08
+  ambient:
+    m_OverrideState: 1
+    m_Value: 0.45
+  ambientFlatten:
+    m_OverrideState: 1
+    m_Value: 0.4
+  ambientFromPalette:
+    m_OverrideState: 1
+    m_Value: 0.35
+  reflections:
+    m_OverrideState: 1
+    m_Value: 0.35
+  additionalLights:
+    m_OverrideState: 1
+    m_Value: 1
+  saturation:
+    m_OverrideState: 1
+    m_Value: 1.08
+  keyColor:
+    m_OverrideState: 1
+    m_Value: {x: 0.96316886, y: 0.033788234, z: 80.31178}
+  shadowColor:
+    m_OverrideState: 1
+    m_Value: {x: 0.5185329, y: 0.06710381, z: 256.4159}
+  skyColor:
+    m_OverrideState: 1
+    m_Value: {x: 0.7978055, y: 0.07575442, z: 236.89325}
+  accentColor:
+    m_OverrideState: 1
+    m_Value: {x: 0.8015267, y: 0.15126294, z: 78.88863}
+  fogColor:
+    m_OverrideState: 1
+    m_Value: {x: 0.88385487, y: 0.028887067, z: 238.27792}
+  lineWeight:
+    m_OverrideState: 1
+    m_Value: 1.4
+  lineColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.12156863, g: 0.101960786, b: 0.14117648, a: 1}
+  lineFromSurface:
+    m_OverrideState: 1
+    m_Value: 0.7
+  silhouettesOnly:
+    m_OverrideState: 1
+    m_Value: 0
+  lineDepthSensitivity:
+    m_OverrideState: 1
+    m_Value: 0.5
+  lineNormalSensitivity:
+    m_OverrideState: 1
+    m_Value: 0.5
+  lineColorSensitivity:
+    m_OverrideState: 1
+    m_Value: 0
+  lineObjectEdges:
+    m_OverrideState: 1
+    m_Value: 0
+  lineLayerMask:
+    m_OverrideState: 1
+    m_Value: -1
+  lineFadeStart:
+    m_OverrideState: 1
+    m_Value: 40
+  lineFadeEnd:
+    m_OverrideState: 1
+    m_Value: 160
+  lineLightWeight:
+    m_OverrideState: 1
+    m_Value: 0.3
+  lineJitter:
+    m_OverrideState: 1
+    m_Value: 0
+  lineWobble:
+    m_OverrideState: 1
+    m_Value: 0
+  outlineWidth:
+    m_OverrideState: 1
+    m_Value: 0
+  haze:
+    m_OverrideState: 1
+    m_Value: 0.5
+  hazeStart:
+    m_OverrideState: 1
+    m_Value: 20
+  hazeDensity:
+    m_OverrideState: 1
+    m_Value: 0.012
+  hazeHeightFalloff:
+    m_OverrideState: 1
+    m_Value: 0.05
+  hazeMax:
+    m_OverrideState: 1
+    m_Value: 0.5
+  hazeDesaturation:
+    m_OverrideState: 1
+    m_Value: 0.4
+  hazeHeightBase:
+    m_OverrideState: 1
+    m_Value: 0
+  hazeFromSky:
+    m_OverrideState: 1
+    m_Value: 0.5
+  softParticles:
+    m_OverrideState: 1
+    m_Value: 0
+  grain:
+    m_OverrideState: 1
+    m_Value: 0
+  grainSize:
+    m_OverrideState: 1
+    m_Value: 1.2
+  vignette:
+    m_OverrideState: 1
+    m_Value: 0
+  vignetteFromPalette:
+    m_OverrideState: 1
+    m_Value: 0.6
+  paper:
+    m_OverrideState: 1
+    m_Value: 0.15
+  paperTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  paperScale:
+    m_OverrideState: 1
+    m_Value: 1
+  paperOnSurfaces:
+    m_OverrideState: 1
+    m_Value: 1
+  chromaticFringe:
+    m_OverrideState: 1
+    m_Value: 0
+  gradingLut:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  gradingLutContribution:
+    m_OverrideState: 1
+    m_Value: 1
+  styleSky:
+    m_OverrideState: 1
+    m_Value: 1
+  skyDistance:
+    m_OverrideState: 1
+    m_Value: 0
+  vertexSnap:
+    m_OverrideState: 1
+    m_Value: 0
+  affineWarp:
+    m_OverrideState: 1
+    m_Value: 0

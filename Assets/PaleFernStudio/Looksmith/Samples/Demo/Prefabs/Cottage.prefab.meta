@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 22684d2e5e7462b4fa409e56d86e203a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Cottage.prefab
+  uploadId: 1057280

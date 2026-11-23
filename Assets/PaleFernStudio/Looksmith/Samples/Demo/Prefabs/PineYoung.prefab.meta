@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7b18df98a89a9fc4a9ad7533d15b33ca
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/PineYoung.prefab
+  uploadId: 1057280

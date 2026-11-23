@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d30cc0a7a2693744bd28794bc29044c, type: 3}
+  m_Name: LooksmithRuntimeResources
+  m_EditorClassIdentifier: PaleFernStudio.Looksmith.Runtime::PaleFernStudio.Looksmith.LooksmithRuntimeResources
+  debugViewShader: {fileID: 4800000, guid: 363b662a02127ec46a0c63b8bcff84d9, type: 3}
+  seeThroughShader: {fileID: 0}
+  linesShader: {fileID: 4800000, guid: 428bd295560ea854eae04b96503177c7, type: 3}
+  swayShader: {fileID: 4800000, guid: 4745e1caf257f314c82ac24789bc0563, type: 3}
+  lineIdsShader: {fileID: 0}
+  outlineHullShader: {fileID: 0}
+  highlightShader: {fileID: 0}
+  posterizeShader: {fileID: 4800000, guid: cc97f5dc9029c1746a56b715f5fc1f71, type: 3}
+  finishShader: {fileID: 4800000, guid: 79001bd73663db245885a19312a8bacd, type: 3}
+  styleMaskShader: {fileID: 0}
+  painterlyShader: {fileID: 0}
+  watercolourShader: {fileID: 0}
+  hatchingShader: {fileID: 0}
+  comicShader: {fileID: 0}
+  pixelArtShader: {fileID: 0}
+  retroShader: {fileID: 0}
+  interactionFieldShader: {fileID: 0}
+  atmosphereShader: {fileID: 0}
+  outlineRenderingLayer: 20
+  highlightRenderingLayer: 21
+  brushNoise: {fileID: 0}
+  yarnShader: {fileID: 0}
+  yarnShape: {fileID: 0}
+  yarnIds: {fileID: 0}
+  yarnTileInfo: {x: 0.67, y: 1.009261, z: 0.21, w: 0}

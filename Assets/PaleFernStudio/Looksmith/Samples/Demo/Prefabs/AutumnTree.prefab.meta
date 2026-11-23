@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e676909adf6e9334ca1381fe2c1524f6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/AutumnTree.prefab
+  uploadId: 1057280

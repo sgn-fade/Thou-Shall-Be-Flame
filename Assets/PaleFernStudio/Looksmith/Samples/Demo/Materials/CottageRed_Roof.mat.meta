@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2e983ec7e05a61648a2161b8fb2e98ee
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Materials/CottageRed_Roof.mat
+  uploadId: 1057280

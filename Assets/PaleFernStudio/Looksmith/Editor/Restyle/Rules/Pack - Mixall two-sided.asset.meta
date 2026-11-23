@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f2f526587cd403740a39b79add5a7700
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Editor/Restyle/Rules/Pack - Mixall two-sided.asset
+  uploadId: 1057280

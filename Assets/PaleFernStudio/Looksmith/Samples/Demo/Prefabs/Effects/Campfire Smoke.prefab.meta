@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d7d3974b671fd254a84ee44b6c08522c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Effects/Campfire
+    Smoke.prefab
+  uploadId: 1057280

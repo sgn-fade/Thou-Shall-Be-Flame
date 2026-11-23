@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7c144cd469a3f2a4192b84849ac3e379
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/PathStone3.prefab
+  uploadId: 1057280

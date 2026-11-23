@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 61c0f2dc49e19ef4cb6d16e3336a958f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Grass2.prefab
+  uploadId: 1057280

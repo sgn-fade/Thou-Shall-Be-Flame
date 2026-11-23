@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb4fadb5b8d16ac4798bf1a97bf50e29
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Materials/FlowersYellow.mat
+  uploadId: 1057280

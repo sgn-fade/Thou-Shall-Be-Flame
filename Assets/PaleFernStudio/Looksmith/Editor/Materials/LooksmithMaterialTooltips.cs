@@ -1,0 +1,126 @@
+using System.Collections.Generic;
+
+namespace PaleFernStudio.Looksmith.Editor
+{
+    /// <summary>Tooltips for every Looksmith material property, shared by the Looksmith material inspectors.</summary>
+    public static class LooksmithMaterialTooltips
+    {
+        static readonly Dictionary<string, string> k_Tips = new Dictionary<string, string>
+        {
+            // Surface
+            { "_BaseMap", "The surface's colour texture." },
+            { "_BaseColor", "Tints the colour texture (alpha = opacity on transparent materials)." },
+            { "_Cutoff", "With Alpha Clipping on: pixels below this alpha are cut out." },
+            { "_VertexColorAmount", "How much the mesh's vertex colours tint the surface (0 = ignore them)." },
+            { "_BumpMap", "Normal map: small surface detail that catches the light." },
+            { "_BumpScale", "Strength of the normal map." },
+            { "_OcclusionMap", "Ambient occlusion: darkens creases in ambient light." },
+            { "_OcclusionStrength", "Strength of the occlusion map." },
+            { "_EmissionMap", "Glow texture (multiplied by Emission Colour)." },
+            { "_EmissionColor", "Light the surface gives off; unaffected by the Look's shading." },
+            // Shading
+            { "_Smoothness", "Glossiness: smoother surfaces get tighter highlights and reflections." },
+            { "_Metallic", "Metal surfaces tint their reflections with their own colour." },
+            { "_SpecularAmount", "How much of the Look's specular highlight this material shows." },
+            { "_RimAmount", "How much of the Look's rim light this material shows." },
+            { "_ShadowTint", "Inherit the Look's shadow colour (recommended), or set this material's own." },
+            { "_RimTint", "Inherit the Look's rim colour, or set this material's own." },
+            // Unlit / Gradient
+            { "_GradientBottom", "Gradient colour at the bottom of the height range." },
+            { "_GradientTop", "Gradient colour at the top of the height range." },
+            { "_GradientRange", "World heights (m) where the gradient starts (x) and ends (y)." },
+            { "_GradientAmount", "How much the height gradient tints the surface." },
+            { "_LookHaze", "Fade into the Look's aerial haze with distance, like lit surfaces do." },
+            // Particles
+            { "_Lit", "0 = unlit particles, 1 = lit by the Look like any surface." },
+            { "_SoftDistance", "Particles fade out this close (m) to the geometry behind them (needs Soft Particles in the Look)." },
+            // Character (Pro)
+            { "_CharacterMask", "R = face (uses the face shadow map), G = hair (gets the hair highlight)." },
+            { "_FaceShadowMap", "Signed-distance shadow map for anime-style face shading that follows the light." },
+            { "_FaceSoftness", "Softness of the face shadow edge." },
+            { "_HairShift", "Moves the hair highlight band along the hair." },
+            // Lit FX (Pro)
+            { "_Dissolve", "Dissolves the surface away (0 = whole, 1 = gone)." },
+            { "_DissolveScale", "Size of the dissolve pattern." },
+            { "_DissolveEdgeWidth", "Width of the glowing dissolve edge." },
+            { "_DissolveEdgeColor", "Colour of the dissolve edge (HDR for a glow)." },
+            { "_HitFlash", "Flashes the surface toward this colour (alpha = amount), for hits." },
+            { "_DitherFade", "Fades the object out with a dither pattern (opaque, no sorting issues)." },
+            // Terrain (Pro)
+            { "_HeightBlend", "Blends terrain layers by their height maps for natural transitions." },
+            { "_CliffMap", "Texture for steep slopes." },
+            { "_CliffColor", "Tint for steep slopes (alpha = amount)." },
+            { "_CliffScale", "Cliff texture tiling (per metre)." },
+            { "_CliffAngle", "Slope (degrees) where the cliff texture starts." },
+            { "_CliffSoftness", "How gradually cliffs blend in around Cliff Angle." },
+            { "_EnableInstancedPerPixelNormal", "Unity terrain option: per-pixel normals when the terrain is drawn instanced." },
+            // Water (Pro)
+            { "_Quality", "Low: colour and foam. Medium: adds refraction and caustics. High: adds detail waves and planar reflection." },
+            { "_ShallowColor", "Colour where the water is shallow." },
+            { "_DeepColor", "Colour where the water is deep." },
+            { "_ColorFromLook", "Take the water colours from the Look's palette." },
+            { "_DepthDistance", "Depth (m) at which the water reaches its deep colour." },
+            { "_Clarity", "How much you see through the water (0 = opaque)." },
+            { "_RefractionStrength", "How much the water bends what's under it (Medium quality and up)." },
+            { "_Reflection", "Strength of the sky and scene reflection." },
+            { "_ShoreFade", "Edges fade out over this distance (m) where the water meets the shore." },
+            { "_WaveA", "First wave: direction (degrees), wavelength (m) and steepness (0..1)." },
+            { "_WaveB", "Second wave: direction, wavelength and steepness." },
+            { "_WaveC", "Third wave: direction, wavelength and steepness." },
+            { "_WaveD", "Fourth wave: direction, wavelength and steepness." },
+            { "_WaveHeight", "Scales every wave's height (0 = flat water)." },
+            { "_WaveSpeed", "Scales how fast the waves travel." },
+            { "_RippleScale", "Size of the small ripples on the surface." },
+            { "_RippleStrength", "Strength of the small ripples." },
+            { "_Flow", "Current direction and speed (m/s) for rivers and waterfalls." },
+            { "_TipColor", "Colour at the tips of the blades (the root takes the Root Colour)." },
+            // Grass Field (Pro)
+            { "_BladeHeight", "Height of the blades (m); each blade varies by Height Variation, and taller and shorter clumps roll across the field." },
+            { "_HeightVariation", "How much blade heights vary, blade to blade and clump to clump." },
+            { "_BladeWidth", "Width of a blade at its root (m). Far blades grow wider to keep the ground covered." },
+            { "_Curvature", "How far each blade curls over (in its own random direction)." },
+            { "_FacingCamera", "Turns blades partly toward the camera so the meadow never shows them edge-on (0 = fully random)." },
+            { "_Clumping", "Gathers the blades into tufts that fan out from their centre, each a little taller or shorter (0 = evenly spread)." },
+            { "_ClumpSize", "Spacing of the tufts (m)." },
+            { "_DryHeight", "How much taller the grass grows in the dry, golden swathes (0.5 = half again as tall)." },
+            { "_VergeHeight", "How much taller the grass grows on the verges, where it meets a path, a wood or a wall (the field's Verge Width sets how far)." },
+            { "_TipColor2", "A second tip colour: some tufts take it, so the meadow mixes two greens." },
+            { "_FlowerColor2", "Colour of the umbels (wide, flat heads like cow parsley)." },
+            { "_FlowerColor3", "Colour of the spikes (tall heads like lupins)." },
+            { "_FlowerColor4", "Colour of the poppies." },
+            { "_FlowerKinds", "How common each flower is, patch by patch: x daisies, y umbels, z spikes, w poppies (0 = none of that kind)." },
+            { "_RootColor", "Colour at the roots of the blades (the tips take the Tip Colour)." },
+            { "_RootShade", "Darkens the roots, like the shade deep in the thatch." },
+            { "_FlowerColor", "Petal colour of the daisies." },
+            { "_FlowerCenter", "Colour at the heart of each flower." },
+            { "_FlowerSize", "Radius of a flower head (m)." },
+            { "_FlowerHeight", "How tall the flower stems stand, relative to the grass height." },
+            { "_FlowerPatchScale", "Size of the flower patches (per metre: smaller = bigger patches)." },
+            { "_FlowerPatches", "0: flowers spread evenly; 1: they gather in patches." },
+            { "_WindLean", "How far blades lean in the Looksmith Wind, as a share of their height (gusts lean them further)." },
+            { "_WindSheen", "Gusts brighten the blades they bend, so the wind shows as bands rolling across the meadow." },
+            { "_DryColor", "Colour of the drier swathes of the meadow." },
+            { "_ColorVariation", "How much the grass varies: dry swathes and blade-to-blade shades." },
+            { "_VariationScale", "Size of the dry and lush swathes (per metre: smaller = bigger patches)." },
+            { "_TipHighlight", "Light caught by the tips of the blades." },
+            { "_Translucency", "Glow of thin blades with the sun behind them." },
+            { "_GroundNormals", "Shades the blades like the ground they grow from (1) or like each blade (0): high keeps a meadow calm." },
+            { "_PushStrength", "How far blades bend away from the player (or anything in Looksmith Grass Pushers)." },
+            { "_Wind", "Wind sway in metres at full height (0 = still). Grass about 0.1, reeds 0.25, a tree's crown 0.3." },
+            { "_WindHeight", "Height (m, in the object) where the sway is full; lower parts sway less, the base stays put." },
+            { "_WindFlutter", "A quick shiver on top of the sway (leaves, petals)." },
+            { "_MeshFlow", "1: the mesh carries the flow (UV2 = across/along the stream in metres; vertex colour r speed, g stream, b foam, a falling water), so rivers bend and falls flow down. 0: the Flow vector moves everything." },
+            { "_FlowSpeed", "Multiplies the speed the mesh gives each stream (Flow From Mesh)." },
+            { "_Glints", "Sparkles where the sun catches the waves." },
+            { "_CrestColor", "Light through the wave crests (alpha = amount)." },
+            { "_FoamColor", "Foam colour (alpha = amount)." },
+            { "_ShoreFoam", "Foam band along shores and around objects (m)." },
+            { "_CrestFoam", "Foam on the tops of steep waves." },
+            { "_FoamScale", "Size of the foam pattern." },
+            { "_RippleRings", "Toon ripple rings around objects in the water (m; 0 = off)." },
+        };
+
+        /// <summary>The tooltip for a property, or an empty string.</summary>
+        public static string Get(string property) => k_Tips.TryGetValue(property, out var tip) ? tip : string.Empty;
+    }
+}

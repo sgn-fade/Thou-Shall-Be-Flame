@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2a3fcaa163bf2d848b5a0a201b6a411b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Effects/Chimney
+    Smoke.prefab
+  uploadId: 1057280

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bb61eda797294a149935658e9b3350a7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Looks/Stylized Realism Look.asset
+  uploadId: 1057280

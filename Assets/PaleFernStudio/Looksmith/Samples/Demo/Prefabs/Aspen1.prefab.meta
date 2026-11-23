@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fc5a4ec245fe1fa45aaa7a34f92ad2a2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Aspen1.prefab
+  uploadId: 1057280

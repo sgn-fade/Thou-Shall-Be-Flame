@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c8099b4e96788604ea56bb0bb2ff1573
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Campfire.prefab
+  uploadId: 1057280

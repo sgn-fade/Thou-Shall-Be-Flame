@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dd3931aa8fa522546ae2dbc4134f5a37
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/Bucket.prefab
+  uploadId: 1057280

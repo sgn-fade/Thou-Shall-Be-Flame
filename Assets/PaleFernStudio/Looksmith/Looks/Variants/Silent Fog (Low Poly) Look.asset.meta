@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 09da2ab4a9d862c4ab144dbf25b81d81
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Looks/Variants/Silent Fog (Low Poly)
+    Look.asset
+  uploadId: 1057280

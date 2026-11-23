@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d19e81ed0b843e74d898d3ed804b1629
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 420944
+  packageName: 'Looksmith Lite: Stylized & Toon Rendering for URP'
+  packageVersion: 1.0.0
+  assetPath: Assets/PaleFernStudio/Looksmith/Samples/Demo/Prefabs/FenceRailPost.prefab
+  uploadId: 1057280
