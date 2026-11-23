@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -12,6 +13,9 @@ public class RigidbodyDrag : MonoBehaviour
     private float _holdDistance;
     private Vector3 _targetPosition;
     private Rigidbody _rigidbody;
+    private Vector3 _collisionNormal;
+
+
     private void Awake()
     {
         if (_camera == null)
@@ -29,12 +33,23 @@ public class RigidbodyDrag : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_camera == null || _rigidbody == null) return;
+        if (_camera == null || _rigidbody == null)
+            return;
 
-        _targetPosition = _camera.transform.position + _camera.transform.forward * _holdDistance;
+        _targetPosition = _camera.transform.position +
+                          _camera.transform.forward * _holdDistance;
 
-        var moveVector = Vector3.MoveTowards(_rigidbody.position, _targetPosition, Time.fixedDeltaTime  * _dragSpeed);
-        _rigidbody.MovePosition(moveVector);
+        Vector3 direction = _targetPosition - _rigidbody.position;
+
+        Vector3 velocity = direction * _dragSpeed;
+
+        if (_collisionNormal != Vector3.zero)
+        {
+            velocity = Vector3.ProjectOnPlane(velocity, _collisionNormal);
+        }
+
+        _rigidbody.linearVelocity = velocity;
+        _collisionNormal = Vector3.zero;
     }
 
     private void TryStartDragging()
@@ -50,6 +65,7 @@ public class RigidbodyDrag : MonoBehaviour
             return;
         _rigidbody = hit.rigidbody;
         _rigidbody.useGravity = false;
+        _rigidbody.freezeRotation = true;
         _holdDistance = (_rigidbody.position - _camera.transform.position).magnitude;
     }
 
@@ -58,8 +74,19 @@ public class RigidbodyDrag : MonoBehaviour
         if (_rigidbody != null)
         {
             _rigidbody.useGravity = true;
+        _rigidbody.freezeRotation = false;
             _rigidbody = null;
         }
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        foreach (ContactPoint contact in collision.contacts)
+        {
+            _collisionNormal += contact.normal;
+        }
+
+        _collisionNormal.Normalize();
     }
 
     private void OnDisable()

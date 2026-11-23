@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2440332756769726414}
   - component: {fileID: 4769844495243628583}
   - component: {fileID: 9117062011189141866}
+  - component: {fileID: 253527771687251087}
   m_Layer: 6
   m_Name: Propane_Tank
   m_TagString: Untagged
@@ -201,7 +202,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Flame.GOEnabler
   _maxTemperature: 1000
-  _go: {fileID: 6302024172271519430}
+  _go: {fileID: 8984221826653246547, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
+  _deleteSpawner: 1
+  _oneShot: 1
+--- !u!114 &253527771687251087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d45b50af6d646e9bbfaa7efbdcb782b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Flame.HighVelocityImpactHitActivator
+  _explosion: {fileID: 1326706924289149458, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
 --- !u!1 &1127146565550347679
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,7 +250,6 @@ Transform:
   - {fileID: 1496527855818962881}
   - {fileID: 62170422672528159}
   - {fileID: 160529290436208199}
-  - {fileID: 6303110483529457482}
   m_Father: {fileID: 400000}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &59496274169423427
@@ -764,79 +779,4 @@ MonoBehaviour:
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 198124144702787664, guid: 61bb62591466c3649bdf4905822d72f6, type: 3}
   m_PrefabInstance: {fileID: 1498357304530928285}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &3160145672549765781
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 3791496092421777011}
-    m_Modifications:
-    - target: {fileID: 1326706924289149458, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-      propertyPath: _power
-      value: 250
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980795754780118495, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980795754780118495, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980795754780118495, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980795754780118495, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980795754780118495, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980795754780118495, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980795754780118495, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980795754780118495, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980795754780118495, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980795754780118495, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8984221826653246547, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-      propertyPath: m_Name
-      value: BigExplosion
-      objectReference: {fileID: 0}
-    - target: {fileID: 8984221826653246547, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
---- !u!1 &6302024172271519430 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8984221826653246547, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-  m_PrefabInstance: {fileID: 3160145672549765781}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &6303110483529457482 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8980795754780118495, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
-  m_PrefabInstance: {fileID: 3160145672549765781}
   m_PrefabAsset: {fileID: 0}

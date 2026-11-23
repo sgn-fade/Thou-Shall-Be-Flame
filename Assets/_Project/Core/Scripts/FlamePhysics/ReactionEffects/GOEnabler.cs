@@ -2,17 +2,21 @@
 
 namespace Flame
 {
-    public class GOEnabler : MaterialReactionEffect
+    public class GOSpawner : MaterialReactionEffect
     {
         [SerializeField] private GameObject _go;
+        [SerializeField] private bool _deleteSpawner;
+        [SerializeField] private bool _oneShot;
+        private bool _played;
+
         public override void PlayEffect()
         {
-            _go.SetActive(true);
-        }
+            if (_oneShot && _played) return;
+            _played = true;
 
-        public override void ReverEffect()
-        {
-            _go.SetActive(false);
+            Instantiate(_go, transform.position, transform.rotation);
+
+            if (_deleteSpawner) Destroy(gameObject);
         }
     }
 }

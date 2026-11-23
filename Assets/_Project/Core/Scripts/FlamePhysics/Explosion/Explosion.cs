@@ -6,7 +6,7 @@ namespace Flame
     public class Explosion : MonoBehaviour
     {
         [SerializeField] private float _power;
-
+        [SerializeField] private float _timeToSelfDestroy = 5f;
         public void OnEnable()
         {
             Collider[] colliders = Physics.OverlapSphere(transform.position, 5f);
@@ -26,6 +26,12 @@ namespace Flame
                     flameable.Burn();
                 }
             }
+            Invoke(nameof(SelfDestroy), _timeToSelfDestroy);
+        }
+
+        public void SelfDestroy()
+        {
+            Destroy(gameObject);
         }
     }
 }
