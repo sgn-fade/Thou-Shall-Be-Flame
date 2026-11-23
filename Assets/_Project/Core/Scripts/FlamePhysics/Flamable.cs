@@ -22,7 +22,7 @@ public class Flameable : MonoBehaviour
         private double _currentTemperatureKelvin;
 
 
-        public event Action<double> TemperatureChanged;
+        public event Action<double, double> TemperatureChanged;
 
 
         private double CurrentTemperatureKelvin
@@ -30,9 +30,8 @@ public class Flameable : MonoBehaviour
             get  => _currentTemperatureKelvin;
             set
             {
+                TemperatureChanged?.Invoke(_currentTemperatureKelvin, value);
                 _currentTemperatureKelvin = value;
-                TemperatureChanged?.Invoke(_currentTemperatureKelvin);
-
             }
         }
 
