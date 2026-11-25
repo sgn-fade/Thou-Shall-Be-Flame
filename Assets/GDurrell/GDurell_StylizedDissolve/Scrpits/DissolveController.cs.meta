@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2325a12c82f278b469404940237dbedc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 381588
+  packageName: Stylized Dissolve FX (URP)
+  packageVersion: 1.0
+  assetPath: Assets/GDurrell/GDurell_StylizedDissolve/Scrpits/DissolveController.cs
+  uploadId: 920098

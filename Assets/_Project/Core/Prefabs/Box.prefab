@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1693584028764575363}
   - component: {fileID: 585575549736680319}
   - component: {fileID: 2501084823051191746}
+  - component: {fileID: 7734794043899444002}
   - component: {fileID: 6559763883253299709}
   - component: {fileID: 594483506853355205}
   m_Layer: 6
@@ -38,6 +39,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3771793026474904492}
+  - {fileID: 326905238959472626}
   - {fileID: 2683287340700958099}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -74,7 +76,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 481526a4713a8e64e8cfb96472ff8c41, type: 2}
+  - {fileID: 2100000, guid: 59223e5cad5dc774b9c9bf89c14a247a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -182,6 +184,58 @@ MonoBehaviour:
     _revertable: 1
     _effects:
     - {fileID: 594483506853355205}
+  _destroyEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7734794043899444002}
+        m_TargetAssemblyTypeName: GDurell.StylizedDissolve.DissolveController, Assembly-CSharp
+        m_MethodName: TriggerDissolve
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6471485162161741108}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2645790389056702533}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7734794043899444002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885608951627620988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2325a12c82f278b469404940237dbedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GDurell.StylizedDissolve.DissolveController
+  dissolveDuration: 2
 --- !u!114 &6559763883253299709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,4 +391,95 @@ ParticleSystem:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3186070964531231031, guid: a371e8ab375e50f4d967f542e10fb1bd, type: 3}
   m_PrefabInstance: {fileID: 1760673737000415899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7080551161433915108
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4969579474597971306}
+    m_Modifications:
+    - target: {fileID: 4290943856081626064, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: ShapeModule.type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290943856081626064, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: ShapeModule.m_MeshRenderer
+      value: 
+      objectReference: {fileID: 417327142297118293}
+    - target: {fileID: 4290943856081626064, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290943856081626064, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290943856081626064, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290943856081626064, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7062978533257197471, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: m_Name
+      value: DissolveParticle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406817549135626518, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00138
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406817549135626518, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2364
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406817549135626518, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.17813
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406817549135626518, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406817549135626518, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406817549135626518, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406817549135626518, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406817549135626518, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406817549135626518, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406817549135626518, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+--- !u!4 &326905238959472626 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7406817549135626518, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+  m_PrefabInstance: {fileID: 7080551161433915108}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &6471485162161741108 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4290943856081626064, guid: e54c1bb284f174045b9c158da2dac974, type: 3}
+  m_PrefabInstance: {fileID: 7080551161433915108}
   m_PrefabAsset: {fileID: 0}

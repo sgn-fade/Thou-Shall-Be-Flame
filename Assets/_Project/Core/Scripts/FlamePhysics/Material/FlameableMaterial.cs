@@ -10,7 +10,7 @@ namespace Flame
         [SerializeField] private float _ignitionTemperatureKelvin = 573.15f;
 
         [SerializeField] private double _maxTemperatureKelvin;
-        [SerializeField] private bool _secondToTotalDestroyingWhileBurning;
+        [SerializeField] private float _secondToTotalDestroyingWhileBurning;
 
 
         [Tooltip("Describes how efficiently a material emits thermal radiation. " +
@@ -19,11 +19,6 @@ namespace Flame
 
         [Tooltip("Energy required to heat 1 kg of material by 1 Kelvin (J/kg·K).")]
         [SerializeField] private float _specificHeatCapacity = 1700f;
-
-        [Header("Burning")]
-        [Tooltip("Seconds from ignition until the object is destroyed.")]
-        [Min(0f)]
-        [SerializeField] private float _burnDurationSeconds = 5f;
 
 
 
@@ -36,10 +31,8 @@ namespace Flame
 
         public float SpecificHeatCapacity => _specificHeatCapacity;
 
-        public float BurnDurationSeconds => _burnDurationSeconds;
-
         public double MaxTemperature => _maxTemperatureKelvin;
 
-        public bool SecondToTotalDestroyingWhileBurning => _secondToTotalDestroyingWhileBurning;
+        public float SecondToTotalDestroyingWhileBurning => _secondToTotalDestroyingWhileBurning;
     }
 }

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 90ecf304c29b7644f97003cc3af8c7e6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 381588
+  packageName: Stylized Dissolve FX (URP)
+  packageVersion: 1.0
+  assetPath: Assets/GDurrell/GDurell_StylizedDissolve/Materials/M_Dissolve_Base.mat
+  uploadId: 920098

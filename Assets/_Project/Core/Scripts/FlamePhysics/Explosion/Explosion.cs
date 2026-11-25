@@ -6,10 +6,11 @@ namespace Flame
     public class Explosion : MonoBehaviour
     {
         [SerializeField] private float _power;
+        [SerializeField] private float _radius;
         [SerializeField] private float _timeToSelfDestroy = 5f;
         public void OnEnable()
         {
-            Collider[] colliders = Physics.OverlapSphere(transform.position, 5f);
+            Collider[] colliders = Physics.OverlapSphere(transform.position, _radius);
 
             foreach (var collider in colliders)
             {

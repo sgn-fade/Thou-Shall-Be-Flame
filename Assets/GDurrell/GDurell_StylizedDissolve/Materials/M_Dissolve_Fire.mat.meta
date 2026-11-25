@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 59223e5cad5dc774b9c9bf89c14a247a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 381588
+  packageName: Stylized Dissolve FX (URP)
+  packageVersion: 1.0
+  assetPath: Assets/GDurrell/GDurell_StylizedDissolve/Materials/M_Dissolve_Fire.mat
+  uploadId: 920098

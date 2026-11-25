@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Flame
 {
     public class ReactionManager : MonoBehaviour
     {
         [SerializeField] private List<TemperatureEvent> _events;
+        [SerializeField] private UnityEvent _destroyEvent;
 
         private Flameable _flameable;
 
@@ -24,12 +26,23 @@ namespace Flame
                     throw new InvalidOperationException($"{nameof(ReactionManager)} on '{name}' has a missing temperature event at index {i}.");
 
             _flameable.TemperatureChanged += FlameableOnTemperatureChanged;
+            _flameable.Burned += FlameableOnBurned;
+        }
+
+        private void FlameableOnBurned()
+        {
+            if (_destroyEvent == null) return;
+
+            _destroyEvent?.Invoke();
         }
 
         private void OnDestroy()
         {
             if (_flameable != null)
+            {
                 _flameable.TemperatureChanged -= FlameableOnTemperatureChanged;
+                _flameable.Burned -= FlameableOnBurned;
+            }
         }
 
         private void FlameableOnTemperatureChanged(double oldValue, double newValue)

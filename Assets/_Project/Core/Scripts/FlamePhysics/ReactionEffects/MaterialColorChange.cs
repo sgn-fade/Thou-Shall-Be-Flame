@@ -17,13 +17,21 @@ namespace Flame
 
         public override void PlayEffect()
         {
-            _startColor = _renderer.material.color;
-            _renderer.material.DOColor(_targetColor, _transitionDuration);
+            _startColor = _renderer.material.GetColor("_BaseColor");
+            _renderer.material.DOColor(
+                _targetColor,
+                "_BaseColor",
+                _transitionDuration
+            );
         }
 
         public override void ReverEffect()
         {
-            _renderer.material.DOColor(_startColor, _transitionDuration);
+            _renderer.material.DOColor(
+                _targetColor,
+                "_BaseColor",
+                _transitionDuration
+            );
         }
     }
 }

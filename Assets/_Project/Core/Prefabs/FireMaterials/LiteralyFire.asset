@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::_Project.Core.Scripts.FlamePhysics.Material.FlameableMaterial
   _canBurn: 1
   _ignitionTemperatureKelvin: 573.15
-  _burningTemperature: 0
-  _secondToTotalDestroyingWhileBurning: 0
+  _maxTemperatureKelvin: 1000
+  _secondToTotalDestroyingWhileBurning: 1000
   _emissivity: 1
   _specificHeatCapacity: 100000
-  _burnDurationSeconds: 5

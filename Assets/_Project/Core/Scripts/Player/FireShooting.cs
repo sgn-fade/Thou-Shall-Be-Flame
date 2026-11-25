@@ -15,7 +15,7 @@ public class FireShooting : MonoBehaviour
             if (!context.started) return;
 
             var sparkObj = Instantiate(_sparkProjectile,
-                _camera.transform.position + _camera.transform.forward * 1.3f,
+                _camera.transform.position + _camera.transform.forward,
                 transform.rotation);
 
             if (sparkObj.TryGetComponent(out Rigidbody rb))

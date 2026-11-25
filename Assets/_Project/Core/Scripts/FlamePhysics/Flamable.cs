@@ -23,6 +23,7 @@ public class Flameable : MonoBehaviour
 
 
         public event Action<double, double> TemperatureChanged;
+        public event Action Burned;
 
 
         private double CurrentTemperatureKelvin
@@ -47,8 +48,8 @@ public class Flameable : MonoBehaviour
 
             _isBurning = true;
             CurrentTemperatureKelvin = _material.MaxTemperature;
+            StartCoroutine(DestroyCoroutine());
         }
-
 
         private void Awake()
         {
@@ -137,6 +138,13 @@ public class Flameable : MonoBehaviour
             {
                 _flameables.Remove(flameable);
             }
+        }
+
+        private IEnumerator DestroyCoroutine()
+        {
+            yield return new WaitForSeconds(_material.SecondToTotalDestroyingWhileBurning * _rigidBody.mass);
+            Debug.Log("Destroyed");
+            Burned?.Invoke();
         }
 
         public string GetDebugInfo()

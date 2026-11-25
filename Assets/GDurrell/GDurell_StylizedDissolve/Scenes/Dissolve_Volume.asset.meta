@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 53a63673f0207854081c01f63df88496
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 381588
+  packageName: Stylized Dissolve FX (URP)
+  packageVersion: 1.0
+  assetPath: Assets/GDurrell/GDurell_StylizedDissolve/Scenes/Dissolve_Volume.asset
+  uploadId: 920098
