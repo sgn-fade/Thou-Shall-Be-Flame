@@ -3200,6 +3200,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc900ab93e474d7e83e672bcdc1bbc9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Flame.Explosion
-  _power: 0.1
-  _radius: 0.1
+  _power: 0
+  _radius: 0.5
   _timeToSelfDestroy: 1

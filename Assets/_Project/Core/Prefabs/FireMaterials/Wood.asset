@@ -15,6 +15,6 @@ MonoBehaviour:
   _canBurn: 1
   _ignitionTemperatureKelvin: 900
   _maxTemperatureKelvin: 900
-  _secondToTotalDestroyingWhileBurning: 4
+  _secondToTotalDestroyingWhileBurning: 9.06
   _emissivity: 0.651
   _specificHeatCapacity: 1700

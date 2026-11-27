@@ -218,6 +218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Flame.HighVelocityImpactHitActivator
   _explosion: {fileID: 1326706924289149458, guid: cdee14b04908cef49ae6ab85f57c3a64, type: 3}
+  _minimumImpactSpeed: 10
 --- !u!1 &1127146565550347679
 GameObject:
   m_ObjectHideFlags: 0

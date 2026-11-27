@@ -60,7 +60,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _DissolveAmount: 0
-    - _DissolveScale: 23.7
+    - _DissolveScale: 100
     - _EdgeThickness: 0.14
     - _Metallic: 0
     - _NormalStrength: 1
@@ -71,7 +71,7 @@ Material:
     - _UseRoughness: 0
     m_Colors:
     - _BaseColor: {r: 0.4490565, g: 0.27885497, b: 0.11777139, a: 0}
-    - _EdgeColor: {r: 0.98490566, g: 0.19402318, b: 0.005574857, a: 1}
+    - _EdgeColor: {r: 1, g: 0.21739131, b: 0, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

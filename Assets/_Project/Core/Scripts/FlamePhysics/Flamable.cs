@@ -6,6 +6,7 @@ namespace Flame
 {
 public class Flameable : MonoBehaviour
     {
+        private const float HeatReceivedTimeoutSeconds = 0.6f;
         [SerializeField] private FlameableMaterial _material;
         [SerializeField] private float _emitRadius;
         [SerializeField] private float _surface;
@@ -20,10 +21,12 @@ public class Flameable : MonoBehaviour
         private double _receivedTemperatureDelta;
         private double _lostTemperatureDelta;
         private double _currentTemperatureKelvin;
+        private float _lastHeatReceivedTime = float.NegativeInfinity;
 
 
         public event Action<double, double> TemperatureChanged;
         public event Action Burned;
+        public bool IsReceivingHeat => Time.time - _lastHeatReceivedTime <= HeatReceivedTimeoutSeconds;
 
 
         private double CurrentTemperatureKelvin
@@ -66,10 +69,16 @@ public class Flameable : MonoBehaviour
         {
             while (true)
             {
-                var emittedEnergy = Math.Pow(CurrentTemperatureKelvin, 4) * _material.Emissivity * _surface * sigma *
-                                    0.5;
+                var sourceTemperature = CurrentTemperatureKelvin;
+                var emissionFactor = _material.Emissivity * _surface * sigma * 0.5;
+                var emittedEnergy = Math.Max(
+                    0d,
+                    Math.Pow(sourceTemperature, 4) - Math.Pow(environmentTemperatureKelvin, 4)
+                ) * emissionFactor;
+
                 if (!_isBurning)
                     LoseHeat(emittedEnergy);
+
                 foreach (var flameable in _flameables)
                 {
                     if (flameable == null || flameable == this)
@@ -82,7 +91,10 @@ public class Flameable : MonoBehaviour
 
                     float heatFactor = Mathf.Clamp01(1f - distance / _emitRadius);
 
-                    double receivedEnergy = Math.Max(0, emittedEnergy) * heatFactor;
+                    double temperatureDifference = Math.Pow(sourceTemperature, 4) -
+                                                   Math.Pow(flameable.CurrentTemperatureKelvin, 4);
+                    double receivedEnergy = Math.Max(0d, temperatureDifference) *
+                                            emissionFactor * heatFactor;
 
                     flameable.ConsumeHeat(receivedEnergy);
                 }
@@ -94,6 +106,8 @@ public class Flameable : MonoBehaviour
         private void ConsumeHeat(double energyJoules)
         {
             if (CurrentTemperatureKelvin >= _material.MaxTemperature) return;
+            if (energyJoules <= 0d) return;
+            _lastHeatReceivedTime = Time.time;
 
 
             double temperatureDelta = energyJoules /

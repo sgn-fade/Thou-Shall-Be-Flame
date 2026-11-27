@@ -1,4 +1,5 @@
 using System.Linq;
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,6 +8,8 @@ public class RigidbodyDrag : MonoBehaviour
     [SerializeField] private Camera _camera;
     [SerializeField] private float _dragSpeed = 10f;
     [SerializeField] private float _maxGrabDistance = 100f;
+    [SerializeField, Min(0f)] private float _maxCarryMass = 10f;
+    [SerializeField, Min(0f)] private float _throwImpulse = 12f;
 
 
 
@@ -14,6 +17,9 @@ public class RigidbodyDrag : MonoBehaviour
     private Vector3 _targetPosition;
     private Rigidbody _rigidbody;
     private Vector3 _collisionNormal;
+    public bool IsDragging => _rigidbody != null;
+    public Rigidbody DraggedRigidbody => _rigidbody;
+    public event Action<bool> DragStateChanged;
 
 
     private void Awake()
@@ -29,6 +35,9 @@ public class RigidbodyDrag : MonoBehaviour
 
         if (Mouse.current != null && Mouse.current.leftButton.wasReleasedThisFrame)
             StopDragging();
+
+        if (Keyboard.current != null && Keyboard.current.qKey.wasPressedThisFrame)
+            ThrowHeldObject();
     }
 
     private void FixedUpdate()
@@ -63,10 +72,14 @@ public class RigidbodyDrag : MonoBehaviour
 
         if (hit.rigidbody == null || hit.rigidbody.isKinematic)
             return;
+        if (hit.rigidbody.mass > _maxCarryMass)
+            return;
+
         _rigidbody = hit.rigidbody;
         _rigidbody.useGravity = false;
         _rigidbody.freezeRotation = true;
         _holdDistance = (_rigidbody.position - _camera.transform.position).magnitude;
+        DragStateChanged?.Invoke(true);
     }
 
     private void StopDragging()
@@ -74,9 +87,21 @@ public class RigidbodyDrag : MonoBehaviour
         if (_rigidbody != null)
         {
             _rigidbody.useGravity = true;
-        _rigidbody.freezeRotation = false;
+            _rigidbody.freezeRotation = false;
             _rigidbody = null;
+            DragStateChanged?.Invoke(false);
         }
+    }
+
+    private void ThrowHeldObject()
+    {
+        if (_rigidbody == null || _camera == null)
+            return;
+
+        var thrownRigidbody = _rigidbody;
+        StopDragging();
+        thrownRigidbody.linearVelocity = Vector3.zero;
+        thrownRigidbody.AddForce(_camera.transform.forward * _throwImpulse, ForceMode.Impulse);
     }
 
     private void OnCollisionStay(Collision collision)

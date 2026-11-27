@@ -17,9 +17,9 @@ namespace Flame
                 if (collider.transform == transform.root)
                     continue;
 
-                if (collider.TryGetComponent(out Rigidbody rigidBody))
+                if (collider.TryGetComponent(out Rigidbody rigidBody) && _power > 0)
                 {
-                    rigidBody.AddExplosionForce(_power,  transform.position, 5f, 10);
+                    rigidBody.AddExplosionForce(_power,  transform.position, _radius, 10);
                 }
 
                 if (collider.TryGetComponent(out Flameable flameable))
